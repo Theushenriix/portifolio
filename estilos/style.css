@@ -59,8 +59,8 @@ header {
 
 #foto-perfil {
     margin: auto;
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
     background-color: rgba(38, 37, 77, 0.589);
     border-radius: 500px;
 
@@ -239,8 +239,8 @@ section#projetos > h2 {
 
 #app-list {
     background-color:  rgba(36, 36, 36, 0.966);
-    width: 500px;
-    height: 600px;
+    max-width: 500px;
+    max-height: 600px;
     padding: 30px;
     border-radius: 15px;
 }
@@ -257,8 +257,8 @@ section#projetos > h2 {
 
 #site-pessoal {
     background-color:  rgba(36, 36, 36, 0.966);
-    width: 500px;
-    height: 600px;
+    max-width: 500px;
+    max-height: 600px;
     padding: 30px;
     border-radius: 15px;
 
