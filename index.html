@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,1,200&icon_names=favorite,home,search,settings" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -21,7 +22,8 @@
         </nav>
         
         <div id="perfil">
-            <div id="foto-perfil"></div>
+            <div ></div>
+            <img id="foto-perfil" src="imagens/foto perfil.jpg" alt="foto de perfil">
             <h1>Matheus Henrique Batista da Silva</h1>
             <p>Aprendendo a aprender!</p>
         </div>
@@ -30,8 +32,14 @@
 
     <main>
         <section id="sobre-mim">
-            <h2>Sobre mim</h2>
-            <p>Olá, sou Matheus Henrique Batista da Silva, estudante de Análise e Desenvolvimento de Sistemas na Unicesumar. Atualmente, atuo como auxiliar de T.I., onde desenvolvo minha paixão por tecnologia. Desde criança, sou fascinado por inovação e criatividade, começando minha jornada no design gráfico com criações no Photoshop, como logos e artes para redes sociais. <br> <br>Hoje, concentro-me em programação, unindo meu conhecimento em design e desenvolvimento para criar soluções visuais e funcionais. Estou sempre aprendendo e buscando novos desafios!</p>
+            <div id="div-sobre-mim">
+                <h2>Sobre mim</h2>
+                <p>Olá, sou Matheus Henrique Batista da Silva, estudante de Análise e Desenvolvimento de Sistemas na Unicesumar. Atualmente, atuo como auxiliar de T.I., onde desenvolvo minha paixão por tecnologia. Desde criança, sou fascinado por inovação e criatividade, começando minha jornada no design gráfico com criações no Photoshop, como logos e artes para redes sociais. <br> <br></p>
+                <p id="p-efeito">Hoje, concentro-me em programação, unindo meu conhecimento em design e desenvolvimento para criar soluções visuais e funcionais. Estou sempre aprendendo e buscando novos desafios!</p>
+            </div>
+            <div>
+                <img id="img-sbre-mim" src="imagens/pessoa-programando-no-notebook.jpg" alt="Pessoa programando">
+            </div>
         </section>
 
         <section id="habilidades">
@@ -55,31 +63,35 @@
         </section>
 
         <section id="projetos">
-            <h2></h2>
+            <h2>Projetos</h2>
+            <div id="div-projetos">
+                <article id="app-list">
+                    <h3>Aplicativo de Lista de Tarefas</h3>
 
-            <article>
-                <h3>Aplicativo de Lista de Tarefas</h3>
+                    <p>Um aplicativo web desenvolvido com HTML, CSS e JavaScript para criar, editar e excluir tarefas. Possui uma interface limpa e responsiva, com armazenamento local para salvar as tarefas.
+                    Tecnologias usadas: HTML, CSS, JavaScript</p>
 
-                <p>Um aplicativo web desenvolvido com HTML, CSS e JavaScript para criar, editar e excluir tarefas. Possui uma interface limpa e responsiva, com armazenamento local para salvar as tarefas.
-                Tecnologias usadas: HTML, CSS, JavaScript</p>
-            </article>
+                    <img id="img-app-list" src="imagens/top-5-soundwiiz-w782.png" alt="aplicativo de lsita">
+                </article>
 
-            <article>
-                <h3>Site de Portfólio Pessoal</h3>
+                <article id="site-pessoal">
+                    <h3>Site de Portfólio Pessoal</h3>
 
-                <p>Uma página de portfólio pessoal que apresenta minhas habilidades e projetos. Desenvolvida com foco em design responsivo e navegação amigável, usando técnicas modernas de CSS como Flexbox e Grid.</p>
-            </article>
+                    <p>Uma página de portfólio pessoal que apresenta minhas habilidades e projetos. Desenvolvida com foco em design responsivo e navegação amigável, usando técnicas modernas de CSS como Flexbox e Grid.</p>
 
+                    <img id="img-site" src="imagens/portifolio.png" alt="aplicativo de lsita">
+                </article>
+            </div>
         </section>
 
 
         <section id="informacoes-extras">
             <h2>Redes sociais</h2>
 
-            <ul>
-                <li><a href="#"></a>Instagram</li>
-                <li><a href="#"></a>GitHub</li>
-                <li><a href="#"></a>Linkedin</li>
+            <ul id="links-redes">
+                <li></i> <img class="img-links-redes" src="imagens/icones/instagram.png" alt="icone instagram"> <a href="https://www.instagram.com/theushenriix/">Instagram</a></li>
+                <li><img class="img-links-redes" src="imagens/icones/placa-do-github.png" alt="icone github"> <a href="https://github.com/Theushenriix">GitHub</a></li>
+                <li><img class="img-links-redes" src="imagens/icones/linkedin.png" alt="icone linkedin"> <a href="https://www.linkedin.com/in/matheus-henrique-batista-da-silva-56b6392b5/">Linkedin</a></li>
             </ul>
         </section>
 
